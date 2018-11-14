@@ -12,7 +12,6 @@ RUN pip3 install awscli --upgrade --user
 COPY config/.bash_profile /root
 COPY config/.vimrc /root
 COPY config/hosts /etc/ansible
-COPY config/private/config /root/.aws/config
 
 RUN chmod 0644 /etc/ansible/hosts
 

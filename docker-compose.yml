@@ -6,7 +6,7 @@ services:
     stdin_open: true
     tty: true
 #    volumes:
-#      - {}\crwgregory\ansible-test-project:/root/ansible/deployments-control
+#      - {your_path}\crwgregory\ansible-test-project:/root/ansible/deployments-control
   test_server:
     build: ./test_server
 #    volumes:
