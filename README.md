@@ -1,5 +1,5 @@
 # Ansible Test Project
-This project gives you access to ywo servers that will let you 
+This project gives you access to two servers that will let you 
 run ansible commands on a remote server.
 
 ## Set up
