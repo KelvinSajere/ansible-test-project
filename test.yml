@@ -1,0 +1,7 @@
+---
+- hosts: all
+  remote_user: root
+  vars:
+  pre_tasks:
+  - name: Test Connection
+    command: "echo 'hello world'"

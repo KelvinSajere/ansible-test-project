@@ -1,0 +1,16 @@
+version: '3'
+services:
+  control_server:
+    build: .
+    working_dir: /root/ansible
+    stdin_open: true
+    tty: true
+#    volumes:
+#      - {}\crwgregory\ansible-test-project:/root/ansible/deployments-control
+  test_server:
+    build: ./test_server
+#    volumes:
+#      - {your_code}:/var/www
+    ports:
+      - "22:22"
+      - "80:80"
